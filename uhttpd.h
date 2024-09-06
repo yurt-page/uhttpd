@@ -173,6 +173,7 @@ struct path_info {
 	const char *info;
 	const char *query;
 	bool redirected;
+	bool compressed;
 	struct stat stat;
 	const struct interpreter *ip;
 };
